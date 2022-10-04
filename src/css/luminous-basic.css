@@ -9,11 +9,11 @@
 
 @keyframes lum-fadeZoom {
   0% {
-    transform: scale(0.5);
+    scale: 0.5;
     opacity: 0;
   }
   100% {
-    transform: scale(1);
+    scale: 1;
     opacity: 1;
   }
 }
@@ -32,7 +32,7 @@
 
 @keyframes lum-loader-before {
   0% {
-    transform: scale(1);
+    scale: 1;
   }
   10% {
     transform: scale(1.2) translateX(6px);
@@ -44,7 +44,7 @@
     transform: scale(1.2) translateX(6px);
   }
   50% {
-    transform: scale(1);
+    scale: 1;
   }
   60% {
     transform: scale(0.8) translateX(6px);
@@ -56,13 +56,13 @@
     transform: scale(0.8) translateX(6px);
   }
   100% {
-    transform: scale(1);
+    scale: 1;
   }
 }
 
 @keyframes lum-loader-after {
   0% {
-    transform: scale(1);
+    scale: 1;
   }
   10% {
     transform: scale(1.2) translateX(-6px);
@@ -74,7 +74,7 @@
     transform: scale(1.2) translateX(-6px);
   }
   50% {
-    transform: scale(1);
+    scale: 1;
   }
   60% {
     transform: scale(0.8) translateX(-6px);
@@ -86,7 +86,7 @@
     transform: scale(0.8) translateX(-6px);
   }
   100% {
-    transform: scale(1);
+    scale: 1;
   }
 }
 
@@ -212,10 +212,10 @@
   background-color: #fff;
 }
 .lum-close-button:before {
-  transform: rotate(45deg);
+  rotate: 45deg;
 }
 .lum-close-button:after {
-  transform: rotate(-45deg);
+  rotate: 45deg;
 }
 
 .lum-previous-button {
